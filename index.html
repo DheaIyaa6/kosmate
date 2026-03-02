@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>KosMate</title>
+    <title>KosMate - Data Penghuni</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Selamat datang di KosMate</h1>
+
+<h1>Data Penghuni Kos</h1>
+
+<form id="formPenghuni">
+    Nama:<br>
+    <input type="text" id="nama"><br><br>
+
+    No Kamar:<br>
+    <input type="text" id="kamar"><br><br>
+
+    No HP:<br>
+    <input type="text" id="hp"><br><br>
+
+    <button type="button" onclick="tambahData()">Simpan</button>
+</form>
+
+<hr>
+
+<h2>Daftar Penghuni</h2>
+
+<table border="1" id="tabelPenghuni">
+    <tr>
+        <th>Nama</th>
+        <th>No Kamar</th>
+        <th>No HP</th>
+        <th>Aksi</th>
+    </tr>
+</table>
+
+<script src="script.js"></script>
+
 </body>
 </html>
