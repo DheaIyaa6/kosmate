@@ -1,1 +1,112 @@
 /* CSS by Dinda */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* FORM */
+form {
+    background: white;
+    display: inline-block;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+form br {
+    display: none;
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #4e73df;
+    outline: none;
+    box-shadow: 0 0 8px rgba(78,115,223,0.3);
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2e59d9;
+    transform: scale(1.05);
+}
+
+hr {
+    margin: 40px auto;
+    width: 60%;
+    border: none;
+    height: 2px;
+    background: white;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* TABLE */
+table {
+    margin: 0 auto;
+    background: white;
+    border-collapse: collapse;
+    width: 70%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+th {
+    background: #4e73df;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background: #f2f6ff;
+}
